@@ -12,4 +12,8 @@ public class Tier {
         this.energie -= energieVerlust;
         return new Tier(groesse, energieVerlust);
     }
+
+    public int getEnergie() {
+        return energie;
+    }
 }
