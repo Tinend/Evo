@@ -7,3 +7,4 @@ CREATE TABLE IF NOT EXISTS tier_arten (
 
 INSERT INTO tier_arten(name) VALUES('Tiger');
 INSERT INTO tier_arten(name) VALUES('Wolf');
+INSERT INTO tier_arten(name) VALUES('Hase');
