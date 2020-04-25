@@ -1,3 +1,5 @@
+package org.brodowsky.jungs.evo;
+
 public class Tier {
     private final int groesse;
     private int energie;

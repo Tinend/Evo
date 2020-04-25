@@ -1,8 +1,12 @@
+package org.brodowsky.jungs.evo;
+
+import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class TierTest {
 
-    @org.junit.jupiter.api.Test
+    @Test
     void kindZeugen() {
         Tier tier = new Tier(10, 7);
         Tier kind = tier.kindZeugen();
