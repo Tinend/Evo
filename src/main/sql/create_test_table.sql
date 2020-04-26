@@ -1,7 +1,7 @@
 DROP TABLE IF EXISTS tier_arten;
 
 CREATE TABLE IF NOT EXISTS tier_arten (
-    id serial PRIMARY KEY,
+    id SERIAL PRIMARY KEY,
     name VARCHAR(25)
 );
 
